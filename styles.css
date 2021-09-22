@@ -1,0 +1,29 @@
+.img-card{
+    max-width: 80%;
+}
+
+.button-card{
+    max-width: 100%;
+}
+
+.footer-main {
+  background-color: #212529;
+  padding: 16px;
+  color: white;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+#logo-footer {
+  margin-right: 16px;
+}
+
+#footer-link {
+  color: white;
+}
