@@ -1,9 +1,19 @@
+body{
+  background: #212529;
+  background: linear-gradient(0deg, rgba(19,18,33,1) 0%, rgba(147,147,170,1) 59%, rgba(160,176,180,1) 79%, rgba(151,162,168,1) 100%);
+}
+
+
 .img-card{
     max-width: 80%;
 }
 
 .button-card{
     max-width: 100%;
+}
+
+.card-products{
+  margin: 20px 0px;
 }
 
 .footer-main {
@@ -18,6 +28,11 @@
   align-items: center;
 }
 
+@media (max-width: 580px) {
+  .aside-div {
+    display: none;
+  }
+}
 
 
 #logo-footer {
@@ -39,7 +54,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: white;
   padding:20px;
 }
 
@@ -51,4 +65,9 @@
   border-radius: 6px;
   margin:40px;
   padding:40px;
+  background-color: white;
+}
+
+#registroExitoso{
+  display:none;
 }
