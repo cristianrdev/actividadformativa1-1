@@ -27,3 +27,28 @@
 #footer-link {
   color: white;
 }
+
+
+
+
+/* Forms */
+
+
+.form-container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding:20px;
+}
+
+.form-register{
+  -webkit-box-shadow: 3px 3px 13px -6px rgba(0,0,0,0.84); 
+  box-shadow: 3px 3px 13px -6px rgba(0,0,0,0.84);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  margin:40px;
+  padding:40px;
+}
